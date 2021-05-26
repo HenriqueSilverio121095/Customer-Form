@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+        <fieldset>
+            <legend><h1>Cadastro</h1></legend>
+
+            <form action =“” method=“Post” enctype="multipart/form-data">
+		    
+                <label>
+			        <b>Nome completo:</b>
+			    </label>
+			        <input type="text" 
+                           name="nome" 
+                           autocomplete="name"
+                           placeholder="Digite seu nome"
+                           required
+			    >
+                <br>
+                <br>
+
+			    <label>
+			        <b>Email:</b>
+			    </label>
+			    <input type="email" 
+                       name="email"
+                       autocomplete="email"
+                       placeholder="Digite seu email"
+                       required 
+			    >
+                <br>
+                <br>
+
+			    <label>
+			        <b>Idade:</b>
+			    </label>
+			    <input type="number" 
+                       name="idade"
+                       autocomplete="age"
+                       inputmode="numeric"
+                       placeholder="Digite sua idade"
+                       required
+			    >
+                <br>
+                <br>
+
+			    <label>
+			        <b>Data de nascimento:</b>
+			    </label>
+			    <input type="date"
+                       name="data-de-nascimento"
+                       autocomplete="birthDate"
+                       inputmode="numeric"
+                       placeholder="dd/mm/aaaa"
+                       required
+			    >
+                <br>
+                <br>
+
+			    <label>
+			        <b>Onde você possui conta?</b><br><br>
+                    <label>
+                    <input type="checkbox"
+                           name="facebook"
+                    >
+                    Facebook
+                    </label>
+                    <label>
+                    <input type="checkbox"
+                           name="instagram"
+                    >
+                    Instagram
+                    </label>
+                    <label>
+                    <input type="checkbox"
+                           name="linkedin"
+                    >
+                    LinkedIn
+                    </label>
+                    <label>
+                    <input type="checkbox"
+                           name="twitter"
+                    >
+                    Twitter
+                    </label>
+                    <label>
+                    <input type="checkbox"
+                           name="youtube"
+                    >
+                    YouTube
+                    </label>
+                </label>
+                <br>
+                <br>
+
+			<label>
+                <b>Sexo</b><br><br>
+                <input type="radio" 
+                       name="sexo" 
+                       value="masculino"
+                >
+                Masculino
+                <input type="radio" 
+                       name="sexo" 
+                       value="feminino"
+                >
+                Feminino
+            </label>
+            <br>
+            <br>
+
+            <label>
+                <b>Cor dos olhos</b>
+                <input type="color" 
+                       name="cor-dos-olhos"
+                >
+            </label>
+            <br>
+            <br>
+
+            <label>
+                <b>Conte-nos um pouco mais sobre você (experiência profissional, hobbies, percurso acadêmico, entre outras vivências)</b>
+                <br>
+                <br>
+                <textarea name="bio"></textarea>
+            </label>
+            <br>
+            <br>
+
+            <label>
+                <b>Currículo</b>
+                <br>
+                <br>
+                <input type="file" 
+                       name="currículo" 
+                       accept=".doc,.docx,.pdf"
+                       required
+                >
+            </label>
+            <br>
+            <br>
+
+            <label>
+                <b>Telefone</b>
+                <br>
+                <br>
+                <input type="tel"
+                       name="telefone"
+                       maxlength="11"
+                       placeholder="(__) _____-____" 
+                       required
+                >
+            </label>
+            <br>
+            <br>
+
+            <label>
+                <b>Link do perfil do LinkedIn</b> 
+            </label><br><br>
+                 <input type="url"
+                        name="link-do-perfil-do-linkedin"
+                        placeholder="Cole aqui" 
+                 >
+            <br>
+            <br>
+
+            <label>
+                <b>Senha (até 8 dígitos)</b>
+            </label><br><br>
+            <input type="password"
+                   name="senha"
+                   inputmode="numeric" 
+                   maxlength="8"
+                   placeholder="Digite aqui" 
+                   required
+            >
+        <br>
+        <br>
+
+        <button type="reset"
+                name="reset"
+        >
+        Limpar
+        </button>
+        
+        <button type="submit"
+                name="submit"
+        > 
+        Enviar
+        </button>
+
+            </form>
+        </fieldset> 
+</body>
+</html>
