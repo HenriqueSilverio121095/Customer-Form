@@ -1,4 +1,4 @@
-# Customer-Form
+# Customer Form
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/HenriqueSilverio121095/Customer-Form/blob/main/LICENSE)
 
 # About the Project
