@@ -5,7 +5,7 @@
 This project sought to develop an interface for a form oriented to customer registration.
 
 # Layout Web
-![Web 1](https://github.com/HenriqueSilverio121095/Customer-Form/blob/main/Customer-Form.png)
+<img src="https://github.com/HenriqueSilverio121095/Customer-Form/blob/main/Customer-Form.png" width="500" height="750">
 
 # Technologies Used
 ## FrontEnd
